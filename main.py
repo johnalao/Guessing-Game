@@ -8,8 +8,8 @@ hard_lives = 7
 
 def start():
   difficulty = input("Choose a difficulty. Type 'easy' or 'hard': ")
-  difficulty_case = difficulty.lower
-  if difficulty_case == "easy":
+#   difficulty_case = difficulty.lower
+  if difficulty == "easy":
     return easy_lives
   else:
     return hard_lives
